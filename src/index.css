@@ -1,19 +1,22 @@
-.cdx-quote-icon svg {
+.cdx-googleAd-icon svg {
   transform: rotate(180deg);
 }
 
-.cdx-quote {
+.cdx-googleAd {
   margin: 0;
 }
 
-.cdx-quote__text {
-  min-height: 158px;
-  margin-bottom: 10px;
-}
+.cdx-googleAd__width {}
 
-.cdx-quote__caption {}
+.cdx-googleAd__height {}
 
-.cdx-quote [contentEditable=true][data-placeholder]::before{
+.cdx-googleAd__adClient {}
+
+.cdx-googleAd__adSlot {}
+
+.cdx-googleAd__adFormat {}
+
+.cdx-googleAd [contentEditable=true][data-placeholder]::before{
   position: absolute;
   content: attr(data-placeholder);
   color: #707684;
@@ -21,19 +24,19 @@
   opacity: 0;
 }
 
-.cdx-quote [contentEditable=true][data-placeholder]:empty::before {
+.cdx-googleAd [contentEditable=true][data-placeholder]:empty::before {
   opacity: 1;
 }
 
-.cdx-quote [contentEditable=true][data-placeholder]:empty:focus::before {
+.cdx-googleAd [contentEditable=true][data-placeholder]:empty:focus::before {
   opacity: 0;
 }
 
 
-.cdx-quote-settings {
+.cdx-googleAd-settings {
   display: flex;
 }
 
-.cdx-quote-settings .cdx-settings-button {
+.cdx-googleAd-settings .cdx-settings-button {
   width: 50%;
 }

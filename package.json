@@ -1,6 +1,6 @@
 {
-  "name": "@editorjs/quote",
-  "version": "2.3.0",
+  "name": "@mkljczk/editorjs-google-ad",
+  "version": "0.9.9",
   "keywords": [
     "codex editor",
     "tool",
@@ -8,17 +8,17 @@
     "editor.js",
     "editorjs"
   ],
-  "description": "Quote Tool for Editor.js",
+  "description": "Google Ad block for editor.js, forked from @editorjs/quote",
   "license": "MIT",
-  "repository": "https://github.com/editor-js/quote",
+  "repository": "https://github.com/mkljczk/editorjs-google-ad",
   "main": "./dist/bundle.js",
   "scripts": {
     "build": "webpack --mode production",
     "build:dev": "webpack --mode development --watch"
   },
   "author": {
-    "name": "CodeX",
-    "email": "team@codex.so"
+    "name": "mkljczk",
+    "email": "me@mkljczk.pl"
   },
   "devDependencies": {
     "@babel/core": "^7.3.4",
